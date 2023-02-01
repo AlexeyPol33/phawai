@@ -2,9 +2,6 @@ from Stack import Stack
 
 items = '[[{())}]'
 
-print(items[:len(items)//2])
-print(items[len(items)//2:-1])
-
 if __name__ == '__main__':
     sequences_id = {'(':1,')':-1,'[':2,']':-2,'{':3,'}':-3}
     sequences = Stack(items)
